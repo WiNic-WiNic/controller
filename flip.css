@@ -3,46 +3,18 @@
 .controller.custom{
     background: url(img/base.png);
     height: 200px;
-    width: 600px;
+    width: 800px;
     background-position-x: 0px;
     background-repeat:no-repeat;
 }
 .custom.disconnected { 
-    background: url(test_img/disconnected.png);
+    background: url(img/disconnected.png);
     background-repeat:no-repeat;
 }
 .custom.disconnected div {
     display: none;
 }
- .custom .triggers{ 
-    width: 127px;
-    height: 100px;
-    top: 33px;
-    left:-86px;
-    position: absolute;
-    background-repeat:no-repeat;
-} 
-.custom .trigger{
-    width: 200px;
-    height: 140px;
-    background: url(test_img/LT.png);
-    background-repeat:no-repeat;
-}
-.custom .trigger.left{ 
-    float: left;
-    left:147px;
-    background-position-x: 0px;
-    position: absolute;
-}
-.custom .trigger.right{
-    background: url(test_img/RT.png);
-    float: right;
-    width: 70px;
-    height: 132px;
-    top: 0px;
-    left:467px;
-    position: absolute;
-}
+
 
 /* base class used to simplify the sprite mapping */
 .custom .button{
@@ -52,12 +24,26 @@
 .custom .x.button.pressed{
     width:60px;
     height:60px;
+    left: 220px;
+    top: 180px;
+    background: url(img/one.png);
+}
+
+.custom .x{ 
+    background-position: -104px 0px;
+    top: 409px;
+    left: -60px;
+    background-repeat:no-repeat;
+}
+.custom .y.button.pressed{
+    width:60px;
+    height:60px;
     left: 505px;
     top: 112px;
     background: url(test_img/X.png);
 }
 
-.custom .x{ 
+.custom .y{ 
     background-position: -104px 0px;
     top: 409px;
     left: -60px;
