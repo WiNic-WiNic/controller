@@ -40,7 +40,7 @@
     height:60px;
     left: 505px;
     top: 112px;
-    background: url(test_img/X.png);
+    background: url(img/two.png);
 }
 
 .custom .y{ 
@@ -54,15 +54,15 @@
     position: absolute;
     width: 310px;
     height: 100px;
-    top: 374px;
-    left: 240px;
+    top: 70px;
+    left: 230px;
     background-repeat:no-repeat;
 }
 .custom .stick.left{
     position: absolute;
-    background: url(test_img/stick.png);
-    height:88px;
-    width: 88px;
+    background: url(img/stick.png);
+    height:42px;
+    width: 42px;
     background-repeat:no-repeat;
 }
 .custom .stick.pressed.left{
