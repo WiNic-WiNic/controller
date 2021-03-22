@@ -93,7 +93,7 @@
 
 .custom .face.up{
     left: 0px;
-    top: 0;
+    top: 0px;
     background-position: 0px 0px;
 }
 .custom .face.down{
@@ -103,12 +103,12 @@
 }
 .custom .face.left{
     top: 0px;
-    left: 0;
+    left: 0px;
     background-position: 160px 0;
 }
 .custom .face.right{
     top: 0px;
-    left: 0px;
+    right: -100px;
     background-position: 320px 0;
 }
 .custom .face.pressed{
