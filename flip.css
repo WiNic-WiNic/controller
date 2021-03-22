@@ -108,7 +108,7 @@
 }
 .custom .face.right{
     top: 0px;
-    right: 0px;
+    left: 0px;
     background-position: 320px 0;
 }
 .custom .face.pressed{
